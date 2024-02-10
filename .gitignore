@@ -1,1 +1,4 @@
 llama
+trained
+adapter_model.bin
+__pycache__

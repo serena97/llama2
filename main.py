@@ -14,8 +14,9 @@ pipeline = transformers.pipeline(
     device_map="auto",
 )
 
+
 sequences = pipeline(
-    'I have tomatoes, basil and cheese at home. What can I cook for dinner?\n',
+    "I have tomatoes, basil and cheese at home. What can I cook for dinner?\n",
     do_sample=True,
     top_k=10,
     num_return_sequences=1,
